@@ -16,7 +16,7 @@
 ## Project Overview
 The **Image Forgery Detection** project aims to identify manipulated or forged images using deep learning techniques. This project explores various image tampering methods, such as splicing, copy-move, and retouching, and leverages neural networks to detect such alterations with high accuracy.
 ## Video link
-https://drive.google.com/drive/folders/1YBi4e9qpvueWWpfEsKuJ1WHylzWR22Ik?usp=sharing
+https://drive.google.com/file/d/1HE8OicPrbJLVPZvdQ0dXelcQ0NDjPlQE/view?usp=sharing
 
 ## Objectives
 - **Identify Forged Images**: Distinguish between authentic and manipulated images.
