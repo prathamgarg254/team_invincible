@@ -89,23 +89,7 @@ Run Frontend
    npm run dev
 ```
 4 Create the app.py File
-In your project directory, create a new file named app.py and insert the following code:
-
-python
-```
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route('/')
-def home():
-    return 'Image Forgery Detection API'
-
-if __name__ == '__main__':
-    app.run(debug=True)
-Run the Flask Server
-Run the backend server with the following command:
-```
+In your project directory, run file named app.py using following code:
 ```
 python app.py
 ```
