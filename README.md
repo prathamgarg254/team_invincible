@@ -80,10 +80,33 @@ The model demonstrates high accuracy and recall rates:
 
 ### Frontend (Vite)
 1. Install [Node.js](https://nodejs.org/).
-2. Create a new Vite project:
+2. Install the necessary dependencies:
    ```bash
-   npm create vite@latest
+   npm install
 3 Follow the prompts to set up your project with React or other preferred frameworks.
-Install the necessary dependencies:
+Run Frontend
    ```bash
-   npm create vite@latest
+   npm run dev
+```
+4 Create the app.py File
+In your project directory, create a new file named app.py and insert the following code:
+
+python
+```
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return 'Image Forgery Detection API'
+
+if __name__ == '__main__':
+    app.run(debug=True)
+Run the Flask Server
+Run the backend server with the following command:
+```
+```
+python app.py
+```
+The backend will now be running locally on http://127.0.0.1:5000/.
