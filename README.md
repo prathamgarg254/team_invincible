@@ -33,6 +33,7 @@ The model is trained and tested on the **CASIA V.2 Dataset**, which consists of 
   - Spliced images
   - Copy-move forgeries
   - Retouched images
+https://www.kaggle.com/datasets/sophatvathana/casia-dataset/data?select=CASIA2
 
 ## Model
 The project uses a **Convolutional Neural Network (CNN)** architecture for forgery detection. The workflow of the model includes:
@@ -43,6 +44,9 @@ The project uses a **Convolutional Neural Network (CNN)** architecture for forge
 5. **Output Layer**: Predict whether the image is forged or authentic.
 
 The model is also enhanced with **Error Level Analysis (ELA)**, a technique used to check image compression levels. Images with more compression show lower ELA, while less compression results in higher ELA, helping to spot inconsistencies caused by manipulation.
+
+![This is an project schema](projectSchema.png)
+
 
 ## Performance
 The model demonstrates high accuracy and recall rates:
