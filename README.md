@@ -12,8 +12,6 @@
 - [Literature Review](#literature-review)
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
-- [Future Directions](#future-directions)
-- [License](#license)
 
 ## Project Overview
 The **Image Forgery Detection** project aims to identify manipulated or forged images using deep learning techniques. This project explores various image tampering methods, such as splicing, copy-move, and retouching, and leverages neural networks to detect such alterations with high accuracy.
@@ -33,7 +31,7 @@ The model is trained and tested on the **CASIA V.2 Dataset**, which consists of 
   - Spliced images
   - Copy-move forgeries
   - Retouched images
-https://www.kaggle.com/datasets/sophatvathana/casia-dataset/data?select=CASIA2
+  - Dataset Link https://www.kaggle.com/datasets/sophatvathana/casia-dataset/data?select=CASIA2
 
 ## Model
 The project uses a **Convolutional Neural Network (CNN)** architecture for forgery detection. The workflow of the model includes:
