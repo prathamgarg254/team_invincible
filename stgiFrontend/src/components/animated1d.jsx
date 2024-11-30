@@ -40,7 +40,7 @@ export function AnimatedoneD({content}) {
                 rotateY,
                 transformStyle: "preserve-3d",
             }}
-            className={` h-full w-full rounded-xl flex flex-col justify-center bg-gradient-to-br pt-4 pl-4 pb-4 from-indigo-200 to-violet-200 relative items-center `}
+            className={` h-full w-full rounded-xl flex flex-col justify-center bg-gradient-to-br pt-4 pl-4 pb-4 from-red-700 to-violet-200 relative items-center `}
         >
             {content}
         </motion.div>
