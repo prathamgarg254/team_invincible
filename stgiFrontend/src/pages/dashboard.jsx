@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import axios from "axios";
 import { AnimatedoneD } from "../components/animated1d";
+import bgImage from "../assets/Untitled.png"
 
 export const Dashboard = () => {
   const [file, setFile] = useState(null);
@@ -79,18 +80,14 @@ export const Dashboard = () => {
   }, [file]);
 
   return (
-    <div className="">
-      <div className="bg-black h-lvh grid grid-cols-2">
-        <div className="text-white items-center flex flex-col justify-center px-24">
+    <div className="" style={{ backgroundImage: `url(${bgImage})` }}>
+      <div className="h-lvh grid grid-cols-2 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${bgImage})` }}>
+        <div className="text-green items-center flex flex-col justify-center px-24">
           <div className="font-extrabold text-6xl items-center">
-            In the world of forged images find the Authentic image
+            Tag Trash
           </div>
           <div className="pt-8 text-xl">
-            Our project is dedicated to providing a reliable way to authenticate
-            images by detecting forgeries and tampering. Using advanced
-            algorithms and machine learning techniques, we ensure the integrity
-            of digital images, offering robust protection against falsified
-            visuals.
+          Tagging waste intelligently for a cleaner world.
           </div>
         </div>
         <div className="flex flex-col justify-center items-center m-14">
@@ -155,7 +152,7 @@ export const Dashboard = () => {
           <h3 className="text-xl">Prediction: {prediction}</h3>
           <h3 className="text-xl">Confidence: {confidence}</h3>
         </div>
-      <div className="h-[1200px] px-10 py-8">
+      {/* <div className="h-[1200px] px-10 py-8">
         <div className="items-center flex justify-center text-3xl font-medium">Developers</div>
         <div className="grid grid-cols-3 h-[600px] px-10 py-8">
           <div className="mx-8 my-2">
@@ -246,7 +243,7 @@ export const Dashboard = () => {
         <div className="text-xl p-2 font-thin ">
           "We hope you enjoyed exploring our project! Your feedback is invaluable as we continue improving our image authentication solution. Thank you for your support!"
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
